@@ -4,6 +4,7 @@ class App < Sinatra::Base
   
   gets '/name' do
     @names = Names.all
+    
   end
   
   
