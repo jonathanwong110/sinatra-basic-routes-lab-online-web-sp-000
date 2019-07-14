@@ -2,7 +2,9 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   
-  get('/medicines') { some code }
+  get '/' do
+  "Hello, World!"
+end
   
   
 end
