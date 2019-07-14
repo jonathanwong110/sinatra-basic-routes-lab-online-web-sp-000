@@ -4,7 +4,7 @@ class App < Sinatra::Base
   
   gets '/name' do
     @name = Name.all
-    erb :''
+    erb :'name'
   end
   
   
